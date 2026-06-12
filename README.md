@@ -28,14 +28,20 @@ By utilizing the integrated **CSC7225** controller, this design minimizes parasi
 
 ```text
 📁 POWER-SUPPLY-12V/
-├── 📁 Hardware/                # Design and manufacturing files
-│   ├── 📁 Gerbers/             # Production-ready ZIP for JLCPCB
-│   ├── BOM.csv                 # Bill of Materials
-│   └── Schematic.pdf           # Exported circuit diagram
-├── 📁 Docs/                    # Technical documentation
-│   ├── Final_Project_Report.pdf# Full project report
-│   └── 📁 Datasheets/          # CSC7225 & TL431 datasheets
-└── 📁 Images/                  # Visual evidence and oscilloscope captures
-    ├── 3D-DESIGN.png           # 3D Render
-    ├── final_prototype.jpg     # Real assembled board
-    └── 📁 Oscilloscope/        # Test waveforms
+├── 📁 Docs/
+│   ├── Final Project Report.pdf
+│   └── Final_Project_report
+├── 📁 Hardware/
+│   └── 📁 Gerbers/
+│       ├── Final Project PDF.pdf
+│       ├── Gerber_PCB1_2025-30-11.zip
+│       └── Schematic
+├── 📁 Images/
+│   ├── 📁 Oscilloscope/
+│   │   ├── Images2
+│   │   ├── as.png
+│   │   ├── as1.png
+│   │   └── as2.png
+│   ├── 3D-DESIGN.png
+│   └── Image1
+└── README.md
