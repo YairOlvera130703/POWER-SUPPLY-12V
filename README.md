@@ -13,7 +13,7 @@ A professionally designed, manufactured, and validated 12V Flyback Switched-Mode
 ## 📌 Project Overview
 Converting AC mains voltage to low-voltage DC using linear power supplies is inefficient and bulky. The goal of this project was to design a compact and efficient SMPS that guarantees galvanic isolation for user safety.
 
-By transitioning from a discrete design (e.g., UC3843 + external MOSFET) to the integrated **CSC7225** controller, this project successfully eliminates critical parasitic oscillations, reduces loop inductance, and achieves a highly stable 12V output.
+By utilizing the integrated **CSC7225** controller, this design minimizes parasitic inductances, optimizes PCB space, and achieves a highly stable 12V output.
 
 ### ✨ Key Features
 * **Topology:** Isolated Flyback Converter.
@@ -32,8 +32,8 @@ By transitioning from a discrete design (e.g., UC3843 + external MOSFET) to the 
 │   ├── 📁 Gerbers/             # Production-ready ZIP for JLCPCB
 │   ├── BOM.csv                 # Bill of Materials
 │   └── Schematic.pdf           # Exported circuit diagram
-├── 📁 Docs/                    # Technical and academic documentation
-│   ├── Final_Project_Report.pdf# Full ITQ project report
+├── 📁 Docs/                    # Technical documentation
+│   ├── Final_Project_Report.pdf# Full project report
 │   └── 📁 Datasheets/          # CSC7225 & TL431 datasheets
 └── 📁 Images/                  # Visual evidence and oscilloscope captures
     ├── 3D-DESIGN.png           # 3D Render
